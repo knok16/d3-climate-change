@@ -1,0 +1,66 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,figure,form,fieldset,input,p,blockquote,th,td,legend {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Cardo', serif;
+}
+h1 {
+    font-family: 'Bevan', serif;
+    font-size: 3.0em;
+}
+p {
+    line-height: 1.4em;
+    margin-bottom: 1.0em;
+}
+a {
+    color: #821122;
+}
+#content {
+    width: 1160px;
+    margin: 0 auto;
+}
+#vis {
+    min-height: 550px;
+}
+path {
+	fill: none;
+}
+text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 8pt;
+    stroke: #777;
+}
+.label {
+	font-size: 30pt;
+	stroke: #555;
+}
+#year-label {
+	fill: #bbb;
+}
+.axis-legend {
+	font-size: 12pt;
+	text-anchor: middle;
+}
+.axis {
+    stroke-width: 1;
+    stroke: #222;
+}
+.graph {
+	stroke-width: 2;
+	stroke: #999;
+}
+#sweep-line,
+#avg-line {
+	stroke: #bbb;
+}
+#cite {
+    font-size: 0.8em;
+    text-align: right;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+#cite a {
+    background: #e2e2e2;
+    text-decoration: none;
+}
